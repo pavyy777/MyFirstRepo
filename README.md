@@ -1,2 +1,4 @@
 # MyFirstRepo
-my first Repo
+hello world!
+my first Repo in github
+
