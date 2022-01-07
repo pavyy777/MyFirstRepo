@@ -30,7 +30,7 @@ select ord_date,salesman_id,ord_no,purch_amt from orderss
 --SQL query to find the orders, which are delivered by a salesperson of ID. 5001. Return ord_no, ord_date, purch_amt
 select ord_no,ord_date,purch_amt from orderss where salesman_id= 5001
 --avg purch amount 1
-select sum(purch_amt) as purchaseAmount,max(purch_amt) as MaximumPurchAmt from orderss
+select avg(purch_amt) as purchaseAmount,max(purch_amt) as MaximumPurchAmt from orderss
 --highest purch amt ord by each city return cust_id,max_purch amt
 select * from orderss
-select customer_id,sum(purch_amt) as maxPurchAmt from orderss group by customer_id
+select customer_id,max(purch_amt) as maxPurchAmt from orderss group by customer_id
