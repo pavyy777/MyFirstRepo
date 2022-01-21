@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsonArray", "HandsonArray\HandsonArray.csproj", "{3152843E-9E7B-46A8-ADA3-18CC9984A7CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3152843E-9E7B-46A8-ADA3-18CC9984A7CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3152843E-9E7B-46A8-ADA3-18CC9984A7CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3152843E-9E7B-46A8-ADA3-18CC9984A7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3152843E-9E7B-46A8-ADA3-18CC9984A7CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25C1B2A4-1A4B-41E5-8125-B80C72392810}
+	EndGlobalSection
+EndGlobal
