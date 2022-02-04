@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="CityBusManagementSystem.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="header">
+                <h1>City Bus Management System</h1>
+                <hr />
+                <ul style="list-style:circle;">
+                    <li><a href="RouteManagement.aspx">Route Management</a></li>
+                    <li><a href="BusDetail.aspx">Bus Details</a></li>
+                    <li><a href="EmployeeDetails.aspx">Employee Details</a></li>
+               
+                </ul>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+    </form>
+</body>
+</html>
